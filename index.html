@@ -107,7 +107,7 @@
                             <i class="fa fa-language fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="service-heading">Multilanguage</h4>
-                        <p class="text-muted">We speak the language of your client. Get reservation from the entire globe</p>
+                        <p class="text-muted">We speak Your Client language. Get reservation from the entire globe</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -442,8 +442,10 @@
 
         <script type="text/javascript">stLight.options({publisher: "d7a04725-0b0e-462b-8cc5-abedfa99b476", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
         <script>
-        var options={ "publisher": "d7a04725-0b0e-462b-8cc5-abedfa99b476", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin"]}};
-        var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+        if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
+             var options={ "publisher": "d7a04725-0b0e-462b-8cc5-abedfa99b476", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin"]}};
+             var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+            }
         </script>
         <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
